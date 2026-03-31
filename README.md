@@ -1,24 +1,21 @@
 # PitchStill Website
 
-Static marketing site for GitHub Pages and a custom domain.
+Official website for PitchStill.
 
-## Files
+PitchStill is a note-training app for musicians. It helps you practice pitch accuracy on guitar, bass, piano, and vocals with real-time microphone feedback.
+
+## Links
+
+- Website: https://pitchstill.com
+- App Store: https://apps.apple.com/in/app/pitchstill-note-training/id6759975330
+
+## Repository Structure
 
 - `index.html` - landing page
-- `privacy/index.html` - privacy policy page
-- `support/index.html` - support page
-- `assets/styles.css` - shared styling
-- `assets/app.js` - optional GA4 loader and click tracking
-- `assets/config.js` - site configuration
-- `CNAME` - GitHub Pages custom domain
+- `privacy/` - privacy policy
+- `support/` - support page
+- `assets/` - styles, scripts, icons, screenshots
 
-## Before Deploying
+## Deployment
 
-1. Set `gaMeasurementId` in `assets/config.js` to your GA4 property ID, for example `G-XXXXXXXXXX`.
-2. If you want the App Store offer-code link used anywhere public, add it intentionally. The main site currently uses the public App Store listing only.
-3. Upload the contents of this `website/` folder to the GitHub Pages repository root.
-4. In your DNS provider, point `pitchstill.com` to GitHub Pages and set `pitchstill.app` to redirect.
-
-## Screenshot Assets
-
-The landing page currently uses the five images from `assets/screenshots_iphone-6.9_en-3/` copied into `website/assets/images/`.
+This site is deployed as a static website via GitHub Pages with `pitchstill.com` as the custom domain.
