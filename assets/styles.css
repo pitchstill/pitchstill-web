@@ -238,9 +238,91 @@ h3 {
   padding: 54px 0;
 }
 
+.launch-video {
+  padding-top: 26px;
+}
+
 .section-heading {
   max-width: 760px;
   margin-bottom: 28px;
+}
+
+.launch-video-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(280px, 360px);
+  gap: 24px;
+  align-items: center;
+}
+
+.video-stage {
+  position: relative;
+}
+
+.video-stage-glow {
+  position: absolute;
+  inset: auto 10% -24px;
+  height: 160px;
+  border-radius: 999px;
+  background: radial-gradient(circle, rgba(29, 92, 255, 0.2) 0%, rgba(29, 92, 255, 0) 70%);
+  filter: blur(12px);
+  pointer-events: none;
+}
+
+.video-card {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid rgba(11, 16, 30, 0.08);
+  border-radius: 30px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92) 0%, rgba(247, 248, 252, 0.96) 100%);
+  box-shadow: 0 34px 90px rgba(10, 12, 17, 0.14);
+}
+
+.video-card-topbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 16px 18px 14px;
+  border-bottom: 1px solid rgba(15, 23, 42, 0.08);
+  background: rgba(255, 255, 255, 0.88);
+}
+
+.video-card-topbar span {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(88, 97, 111, 0.28);
+}
+
+.video-card-topbar strong {
+  margin-left: 8px;
+  font-size: 0.92rem;
+  letter-spacing: -0.01em;
+}
+
+.video-embed {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  background: #050608;
+}
+
+.video-embed iframe {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.launch-video-aside {
+  display: grid;
+  gap: 18px;
+  align-content: center;
+}
+
+.launch-video-note {
+  color: var(--muted);
+  font-size: 1rem;
 }
 
 .section-grid .steps,
@@ -442,6 +524,7 @@ h3 {
 
 @media (max-width: 1080px) {
   .hero,
+  .launch-video-grid,
   .trust,
   .steps,
   .feature-grid,
@@ -455,6 +538,10 @@ h3 {
 
   .hero {
     gap: 30px;
+  }
+
+  .launch-video-aside {
+    justify-items: start;
   }
 
   .phone-frame-large {
@@ -494,6 +581,10 @@ h3 {
     gap: 22px;
   }
 
+  .launch-video {
+    padding-top: 12px;
+  }
+
   .section {
     padding: 42px 0;
   }
@@ -512,6 +603,11 @@ h3 {
   .section-heading,
   .trust-copy,
   .document-page {
+    text-align: center;
+  }
+
+  .launch-video-aside {
+    justify-items: center;
     text-align: center;
   }
 
@@ -568,6 +664,15 @@ h3 {
   .shot-card .phone-frame {
     padding: 9px;
     border-radius: 26px;
+  }
+
+  .video-card {
+    border-radius: 24px;
+  }
+
+  .video-card-topbar {
+    justify-content: center;
+    flex-wrap: wrap;
   }
 
   .trust {
