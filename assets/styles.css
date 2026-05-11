@@ -199,6 +199,7 @@ h3 {
 
 .app-store-badge {
   display: block;
+  margin-top: 10px;
   height: 56px;
   width: auto;
 }
@@ -211,7 +212,7 @@ h3 {
 
 .google-play-badge {
   display: block;
-  height: 80px;
+  height: 76px;
   width: auto;
 }
 
