@@ -194,6 +194,7 @@ h3 {
   align-items: center;
   justify-content: center;
   align-self: start;
+  min-height: 56px;
 }
 
 .app-store-badge {
@@ -210,7 +211,7 @@ h3 {
 
 .google-play-badge {
   display: block;
-  height: 56px;
+  height: 64px;
   width: auto;
 }
 
