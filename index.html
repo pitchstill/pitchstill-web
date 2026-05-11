@@ -10,17 +10,21 @@
     />
     <meta
       name="keywords"
-      content="PitchStill, note training, ear training, pitch training, guitar, bass, piano, vocals"
+      content="PitchStill, note training app, pitch training, fretboard notes, guitar note training, bass note training, piano note training, vocal pitch practice"
     />
+    <meta name="robots" content="index,follow" />
     <meta name="theme-color" content="#f6f5f2" />
+    <meta name="apple-itunes-app" content="app-id=6759975330" />
     <meta property="og:title" content="PitchStill | Note Training for Musicians" />
     <meta
       property="og:description"
       content="Train your pitch by playing or singing real notes. Clean feedback, focused practice, and progress tracking."
     />
     <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="PitchStill" />
     <meta property="og:url" content="https://pitchstill.com/" />
     <meta property="og:image" content="https://pitchstill.com/assets/images/screenshot-1.png" />
+    <meta property="og:image:alt" content="PitchStill note training app screenshot" />
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="PitchStill | Note Training for Musicians" />
     <meta
@@ -28,6 +32,7 @@
       content="Train your pitch by playing or singing real notes with real-time feedback."
     />
     <meta name="twitter:image" content="https://pitchstill.com/assets/images/screenshot-1.png" />
+    <meta name="twitter:image:alt" content="PitchStill note training app screenshot" />
     <link rel="canonical" href="https://pitchstill.com/" />
     <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
@@ -39,6 +44,49 @@
       href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap"
       rel="stylesheet"
     />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "name": "PitchStill",
+            "url": "https://pitchstill.com/",
+            "logo": "https://pitchstill.com/assets/images/app-icon.png",
+            "sameAs": [
+              "https://www.youtube.com/@PitchStill",
+              "https://www.instagram.com/pitchstill/",
+              "https://x.com/PitchStill",
+              "https://www.reddit.com/user/pitchstillapp/",
+              "https://www.linkedin.com/company/pitchstill/",
+              "https://www.threads.com/@pitchstill"
+            ]
+          },
+          {
+            "@type": "MobileApplication",
+            "name": "PitchStill",
+            "applicationCategory": "MusicApplication",
+            "operatingSystem": "iOS, iPadOS, Android",
+            "url": "https://pitchstill.com/",
+            "downloadUrl": [
+              "https://apps.apple.com/app/id6759975330",
+              "https://play.google.com/store/apps/details?id=com.shreyash.noteschool"
+            ],
+            "description": "PitchStill is a note training app for guitar, bass, piano, and voice with real-time microphone-based pitch feedback.",
+            "publisher": {
+              "@type": "Organization",
+              "name": "PitchStill"
+            },
+            "offers": {
+              "@type": "Offer",
+              "price": "0",
+              "priceCurrency": "USD",
+              "availability": "https://schema.org/InStock"
+            }
+          }
+        ]
+      }
+    </script>
     <link rel="stylesheet" href="./assets/styles.css" />
     <script src="./assets/config.js"></script>
     <script defer src="./assets/app.js"></script>
@@ -71,7 +119,7 @@
             <div class="cta-row">
               <a
                 class="app-store-badge-link tracked-link"
-                href="https://apps.apple.com/in/app/pitchstill-note-training/id6759975330"
+                href="https://apps.apple.com/app/id6759975330"
                 target="_blank"
                 rel="noreferrer"
                 data-event="app_store_click"
@@ -83,8 +131,20 @@
                   alt="Download on the App Store"
                 />
               </a>
+              <a
+                class="store-button tracked-link"
+                href="https://play.google.com/store/apps/details?id=com.shreyash.noteschool"
+                target="_blank"
+                rel="noreferrer"
+                data-event="google_play_click"
+                aria-label="Get PitchStill on Google Play"
+              >
+                <span class="store-button-eyebrow">GET IT ON</span>
+                <span class="store-button-label">Google Play</span>
+              </a>
               <a class="button button-secondary" href="#screenshots">View Screenshots</a>
             </div>
+            <p class="secondary-copy">Free to download on iPhone, iPad, and Android.</p>
             <ul class="hero-points" aria-label="PitchStill highlights">
               <li>Single-note practice for guitar, bass, piano, and vocals</li>
               <li>On-device microphone processing during active sessions</li>
@@ -147,6 +207,15 @@
                   data-event="launch_video_click"
                 >
                   Watch on YouTube
+                </a>
+                <a
+                  class="button button-secondary tracked-link"
+                  href="https://play.google.com/store/apps/details?id=com.shreyash.noteschool"
+                  target="_blank"
+                  rel="noreferrer"
+                  data-event="launch_google_play_click"
+                >
+                  Get it on Google Play
                 </a>
                 <a class="button button-secondary" href="#screenshots">Browse Screenshots</a>
               </div>
@@ -318,23 +387,37 @@
               <div class="eyebrow">Start training</div>
               <h2>Pitch training that feels like practice, not homework</h2>
               <p>
-                Download PitchStill on iPhone and start building faster, more accurate note recall.
+                Download PitchStill on iPhone, iPad, or Android and start building faster, more
+                accurate note recall.
               </p>
             </div>
-            <a
-              class="app-store-badge-link tracked-link"
-              href="https://apps.apple.com/in/app/pitchstill-note-training/id6759975330"
-              target="_blank"
-              rel="noreferrer"
-              data-event="final_app_store_click"
-              aria-label="Download PitchStill on the App Store"
-            >
-              <img
-                class="app-store-badge"
-                src="./assets/images/download-on-the-app-store.svg"
-                alt="Download on the App Store"
-              />
-            </a>
+            <div class="inline-links">
+              <a
+                class="app-store-badge-link tracked-link"
+                href="https://apps.apple.com/app/id6759975330"
+                target="_blank"
+                rel="noreferrer"
+                data-event="final_app_store_click"
+                aria-label="Download PitchStill on the App Store"
+              >
+                <img
+                  class="app-store-badge"
+                  src="./assets/images/download-on-the-app-store.svg"
+                  alt="Download on the App Store"
+                />
+              </a>
+              <a
+                class="store-button tracked-link"
+                href="https://play.google.com/store/apps/details?id=com.shreyash.noteschool"
+                target="_blank"
+                rel="noreferrer"
+                data-event="final_google_play_click"
+                aria-label="Get PitchStill on Google Play"
+              >
+                <span class="store-button-eyebrow">GET IT ON</span>
+                <span class="store-button-label">Google Play</span>
+              </a>
+            </div>
           </div>
         </section>
       </main>
@@ -351,12 +434,22 @@
           <a href="./privacy/">Privacy</a>
           <a href="./support/">Support</a>
           <a
-            href="https://apps.apple.com/in/app/pitchstill-note-training/id6759975330"
+            href="https://apps.apple.com/app/id6759975330"
             target="_blank"
             rel="noreferrer"
           >
             App Store
           </a>
+          <a
+            href="https://play.google.com/store/apps/details?id=com.shreyash.noteschool"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Google Play
+          </a>
+          <a href="https://www.youtube.com/@PitchStill" target="_blank" rel="noreferrer">YouTube</a>
+          <a href="https://x.com/PitchStill" target="_blank" rel="noreferrer">X</a>
+          <a href="https://www.instagram.com/pitchstill/" target="_blank" rel="noreferrer">Instagram</a>
         </div>
       </footer>
     </div>

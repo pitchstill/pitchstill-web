@@ -7,7 +7,8 @@ PitchStill is a note-training app for musicians. It helps you practice pitch acc
 ## Links
 
 - Website: https://pitchstill.com
-- App Store: https://apps.apple.com/in/app/pitchstill-note-training/id6759975330
+- App Store: https://apps.apple.com/in/app/pitchstill-note-recall/id6759975330
+- Google Play: https://play.google.com/store/apps/details?id=com.shreyash.noteschool
 
 ## Repository Structure
 

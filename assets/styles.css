@@ -202,6 +202,45 @@ h3 {
   width: auto;
 }
 
+.store-button {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 56px;
+  min-width: 184px;
+  padding: 10px 18px;
+  border-radius: 14px;
+  background: #111;
+  color: #fff;
+  box-shadow: 0 16px 34px rgba(17, 17, 17, 0.18);
+  transition: transform 160ms ease, box-shadow 160ms ease;
+}
+
+.store-button:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 18px 38px rgba(17, 17, 17, 0.22);
+}
+
+.store-button-eyebrow {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  opacity: 0.82;
+}
+
+.store-button-label {
+  font-size: 1.18rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.1;
+}
+
+.secondary-copy {
+  margin-top: 14px;
+  color: var(--muted);
+  font-size: 0.98rem;
+}
+
 .hero-points,
 .document-list {
   padding-left: 18px;
