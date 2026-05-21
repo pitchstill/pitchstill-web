@@ -99,11 +99,14 @@
           <span>PitchStill</span>
         </a>
         <nav class="topnav" aria-label="Primary">
-          <a href="#launch-video">Launch Video</a>
+          <a href="./guitar/">Guitar</a>
+          <a href="./bass/">Bass</a>
+          <a href="./piano/">Piano</a>
+          <a href="./voice/">Voice</a>
           <a href="#how-it-works">How It Works</a>
           <a href="#screenshots">Screenshots</a>
-          <a href="./privacy/">Privacy</a>
           <a href="./support/">Support</a>
+          <a class="nav-cta tracked-link" href="https://apps.apple.com/app/id6759975330" target="_blank" rel="noreferrer" data-event="nav_app_store_click">Download</a>
         </nav>
       </header>
 
@@ -111,10 +114,10 @@
         <section class="hero">
           <div class="hero-copy">
             <div class="eyebrow">Real-time note training for musicians</div>
-            <h1>Hear the note. Find it. Hold it.</h1>
+            <h1>Turn note recall into a daily reflex.</h1>
             <p class="lede">
-              PitchStill gives you a target note, listens through your microphone,
-              and confirms whether you actually hit it on guitar, bass, piano, or voice.
+              PitchStill trains active note recall on real instruments. Hear a target, play or sing
+              it back, and get instant microphone feedback on guitar, bass, piano, or voice.
             </p>
             <div class="cta-row">
               <a
@@ -145,24 +148,125 @@
                   alt="Get it on Google Play"
                 />
               </a>
-              <a class="button button-secondary" href="#screenshots">View Screenshots</a>
+              <a class="button button-secondary" href="#how-it-works">See How It Works</a>
             </div>
             <p class="secondary-copy">Free to download on iPhone, iPad, and Android.</p>
-            <ul class="hero-points" aria-label="PitchStill highlights">
-              <li>Single-note practice for guitar, bass, piano, and vocals</li>
-              <li>On-device microphone processing during active sessions</li>
-              <li>Session stats, streaks, accuracy, and reaction-time tracking</li>
-            </ul>
+            <div class="hero-proof" aria-label="PitchStill highlights">
+              <div>
+                <strong>4</strong>
+                <span>Instruments</span>
+              </div>
+              <div>
+                <strong>0</strong>
+                <span>Audio recordings stored</span>
+              </div>
+              <div>
+                <strong>Daily</strong>
+                <span>Streaks and session stats</span>
+              </div>
+            </div>
           </div>
 
           <div class="hero-visual">
+            <div class="practice-panel practice-panel-left" aria-hidden="true">
+              <span class="panel-label">Today</span>
+              <strong>Guitar notes</strong>
+              <div class="mini-meter"><span></span></div>
+              <p>Accuracy 86%</p>
+            </div>
             <div class="phone-frame phone-frame-large">
               <img
-                src="./assets/images/screenshot-1.png"
+                src="./assets/images/screenshot-home.png"
                 alt="PitchStill app screenshot showing the main app experience"
                 loading="eager"
               />
             </div>
+            <div class="practice-panel practice-panel-right" aria-hidden="true">
+              <span class="panel-label">Target</span>
+              <div class="note-chip-row">
+                <span>C</span>
+                <span>G</span>
+                <span>D</span>
+              </div>
+              <p>Listen, play, confirm.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section story-band" aria-labelledby="practice-gap-heading">
+          <div class="section-heading">
+            <div class="eyebrow">The practice gap</div>
+            <h2 id="practice-gap-heading">Knowing theory is not the same as landing the note.</h2>
+          </div>
+          <div class="story-copy">
+            <p>
+              A lot of musicians know shapes, patterns, note names, or chord formulas on paper.
+              The harder skill is reacting fast enough to produce the target note on the actual
+              instrument without hunting around.
+            </p>
+            <p>
+              PitchStill makes that gap measurable. It gives you a target, listens while you respond,
+              and scores the physical result: accuracy, speed, streak, and consistency.
+            </p>
+          </div>
+          <ul class="story-list" aria-label="Common practice problems">
+            <li>
+              <strong>Shapes without targets</strong>
+              <span>You know the box or pattern, but still search for the note inside it.</span>
+            </li>
+            <li>
+              <strong>The theory-to-instrument delay</strong>
+              <span>You can name chord tones, but cannot always find them quickly in real time.</span>
+            </li>
+            <li>
+              <strong>Passive practice loops</strong>
+              <span>Videos and diagrams explain the idea, but they do not check your response.</span>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section instruments" id="instruments">
+          <div class="section-heading section-heading-wide">
+            <div class="eyebrow">Choose your instrument</div>
+            <h2>Focused note training for the way you actually practice.</h2>
+            <p>
+              Each instrument page explains the setup, training flow, and practical use cases for
+              that player.
+            </p>
+          </div>
+          <div class="instrument-link-grid">
+            <a class="instrument-link-card" href="./guitar/">
+              <img src="./assets/images/landing/guitar-practice.jpg" alt="Close-up guitar fretboard practice" loading="lazy" />
+              <div>
+                <span>Guitar</span>
+                <h3>Stop hunting across the fretboard</h3>
+                <p>Train note names, target notes, and chord tones inside specific strings and frets.</p>
+              </div>
+            </a>
+            <a class="instrument-link-card" href="./bass/">
+              <img src="./assets/images/landing/bass-practice.jpg" alt="Close-up bass guitar practice" loading="lazy" />
+              <div>
+                <span>Bass</span>
+                <h3>Roots and chord tones on command</h3>
+                <p>Build faster neck recall for roots, guide tones, and movement through changes.</p>
+              </div>
+            </a>
+            <a class="instrument-link-card" href="./piano/">
+              <img src="./assets/images/landing/piano-practice.jpg" alt="Hands practicing piano keyboard" loading="lazy" />
+              <div>
+                <span>Piano</span>
+                <h3>Make note-to-key response faster</h3>
+                <p>Set a keyboard range and drill notes or harmony one target at a time.</p>
+              </div>
+            </a>
+            <a class="instrument-link-card" href="./voice/">
+              <img src="./assets/images/landing/voice-practice.jpg" alt="Studio microphone for vocal practice" loading="lazy" />
+              <div>
+                <span>Voice</span>
+                <h3>Sing the target note in range</h3>
+                <p>Practice pitch production with immediate feedback during active sessions.</p>
+              </div>
+            </a>
           </div>
         </section>
 
@@ -267,24 +371,72 @@
           <div class="section-heading">
             <div class="eyebrow">Built for practice</div>
             <h2>Everything needed for deliberate repetition</h2>
+            <p>
+              PitchStill is not a tuner and not a tap-the-answer quiz. It is a short loop for
+              producing the note yourself and seeing whether you landed it.
+            </p>
           </div>
           <div class="feature-grid">
             <article class="feature-card">
               <h3>Instrument-specific setup</h3>
-              <p>Custom note pools for guitar, bass, piano, and vocal range training.</p>
+              <p>
+                Custom note pools for guitar, bass, piano, and vocal range training. Guitar and
+                bass players can narrow drills by strings and frets.
+              </p>
             </article>
             <article class="feature-card">
-              <h3>Sequence training</h3>
-              <p>Premium mode includes chord inversions and scale patterns for deeper drills.</p>
+              <h3>Real microphone feedback</h3>
+              <p>
+                The app gives the target first, then listens while you play or sing it back on the
+                real instrument in front of you.
+              </p>
             </article>
             <article class="feature-card">
               <h3>Progress that compounds</h3>
-              <p>Every session contributes to streaks, session history, and long-term statistics.</p>
+              <p>
+                Every session contributes to score, accuracy, streaks, reaction time, XP, levels,
+                session history, and long-term statistics.
+              </p>
             </article>
             <article class="feature-card">
-              <h3>Privacy-first audio handling</h3>
-              <p>Microphone input is used for active training only and processed on device.</p>
+              <h3>Guided harmonic practice</h3>
+              <p>
+                Premium unlocks deeper guided paths, sequence drills, chord movement, inversions,
+                and scale patterns with a one-time purchase.
+              </p>
             </article>
+          </div>
+        </section>
+
+        <section class="section">
+          <div class="premium-band">
+            <div>
+              <div class="eyebrow">Premium</div>
+              <h2>Go beyond single notes when you are ready.</h2>
+              <p class="section-kicker">
+                Single-note drills are free. Premium adds unlimited sequence practice and guided
+                harmonic paths for chord tones, inversions, scale patterns, and chord movement.
+                Upgrade once and use it forever.
+              </p>
+            </div>
+            <div class="benefit-list">
+              <div class="benefit-item">
+                <strong>Sequence drills</strong>
+                <span>Practice chord inversions and scale patterns one note at a time.</span>
+              </div>
+              <div class="benefit-item">
+                <strong>Guided paths</strong>
+                <span>Move from note recall into chord qualities, color tones, and harmony.</span>
+              </div>
+              <div class="benefit-item">
+                <strong>No subscription</strong>
+                <span>Premium is a one-time unlock, not another monthly bill.</span>
+              </div>
+              <div class="benefit-item">
+                <strong>Daily focus</strong>
+                <span>Use short measured sessions instead of vague unfocused repetition.</span>
+              </div>
+            </div>
           </div>
         </section>
 
@@ -356,6 +508,11 @@
                 <img src="./assets/images/screenshot-5.png" alt="PitchStill screenshot 5" loading="lazy" />
               </div>
             </figure>
+            <figure class="shot-card">
+              <div class="phone-frame">
+                <img src="./assets/images/screenshot-6.png" alt="PitchStill screenshot 6" loading="lazy" />
+              </div>
+            </figure>
           </div>
         </section>
 
@@ -381,6 +538,43 @@
               <span class="metric-value">0</span>
               <span class="metric-label">Audio recordings stored</span>
             </div>
+          </div>
+        </section>
+
+        <section class="section faq-band" id="faq">
+          <div class="section-heading section-heading-wide">
+            <div class="eyebrow">Questions</div>
+            <h2>What PitchStill is, and what it is not.</h2>
+          </div>
+          <div class="faq-grid">
+            <article class="faq-item">
+              <h3>Is this just a tuner?</h3>
+              <p>
+                No. A tuner tells you what note you are already playing. PitchStill gives you the
+                target first, then checks whether you can find it.
+              </p>
+            </article>
+            <article class="faq-item">
+              <h3>Is this ear training?</h3>
+              <p>
+                It overlaps with ear training, but the focus is active note recall: hearing or seeing
+                a target and producing it on your actual instrument.
+              </p>
+            </article>
+            <article class="faq-item">
+              <h3>Does it replace songs or lessons?</h3>
+              <p>
+                No. Songs and lessons give musical context. PitchStill is a focused drill for the
+                smaller skill of landing notes quickly and accurately.
+              </p>
+            </article>
+            <article class="faq-item">
+              <h3>Does PitchStill store audio?</h3>
+              <p>
+                No. Microphone input is used during active sessions for pitch detection. Audio is not
+                recorded, stored, or sent anywhere for training playback.
+              </p>
+            </article>
           </div>
         </section>
 
