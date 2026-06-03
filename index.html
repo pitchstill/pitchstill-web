@@ -100,9 +100,9 @@
         </a>
         <nav class="topnav" aria-label="Primary">
           <a href="./guitar/">Guitar</a>
-          <a href="./bass/">Bass</a>
-          <a href="./piano/">Piano</a>
           <a href="./voice/">Voice</a>
+          <a href="./piano/">Piano</a>
+          <a href="./bass/">Bass</a>
           <a href="#how-it-works">How It Works</a>
           <a href="#screenshots">Screenshots</a>
           <a href="./support/">Support</a>
@@ -234,29 +234,13 @@
               that player.
             </p>
           </div>
-          <div class="instrument-link-grid">
+          <div class="instrument-link-grid mobile-carousel" aria-label="Instrument pages">
             <a class="instrument-link-card" href="./guitar/">
               <img src="./assets/images/landing/guitar-practice.jpg" alt="Close-up guitar fretboard practice" loading="lazy" />
               <div>
                 <span>Guitar</span>
                 <h3>Stop hunting across the fretboard</h3>
                 <p>Train note names, target notes, and chord tones inside specific strings and frets.</p>
-              </div>
-            </a>
-            <a class="instrument-link-card" href="./bass/">
-              <img src="./assets/images/landing/bass-practice.jpg" alt="Close-up bass guitar practice" loading="lazy" />
-              <div>
-                <span>Bass</span>
-                <h3>Roots and chord tones on command</h3>
-                <p>Build faster neck recall for roots, guide tones, and movement through changes.</p>
-              </div>
-            </a>
-            <a class="instrument-link-card" href="./piano/">
-              <img src="./assets/images/landing/piano-practice.jpg" alt="Hands practicing piano keyboard" loading="lazy" />
-              <div>
-                <span>Piano</span>
-                <h3>Make note-to-key response faster</h3>
-                <p>Set a keyboard range and drill notes or harmony one target at a time.</p>
               </div>
             </a>
             <a class="instrument-link-card" href="./voice/">
@@ -267,6 +251,27 @@
                 <p>Practice pitch production with immediate feedback during active sessions.</p>
               </div>
             </a>
+            <a class="instrument-link-card" href="./piano/">
+              <img src="./assets/images/landing/piano-practice.jpg" alt="Hands practicing piano keyboard" loading="lazy" />
+              <div>
+                <span>Piano</span>
+                <h3>Make note-to-key response faster</h3>
+                <p>Set a keyboard range and drill notes or harmony one target at a time.</p>
+              </div>
+            </a>
+            <a class="instrument-link-card" href="./bass/">
+              <img src="./assets/images/landing/bass-practice.jpg" alt="Close-up bass guitar practice" loading="lazy" />
+              <div>
+                <span>Bass</span>
+                <h3>Roots and chord tones on command</h3>
+                <p>Build faster neck recall for roots, guide tones, and movement through changes.</p>
+              </div>
+            </a>
+          </div>
+          <div class="mobile-carousel-controls" data-carousel-controls aria-label="Instrument carousel controls">
+            <button class="carousel-arrow carousel-arrow-prev" type="button" data-carousel-prev aria-label="Previous instrument"></button>
+            <div class="mobile-carousel-dots" data-carousel-dots></div>
+            <button class="carousel-arrow carousel-arrow-next" type="button" data-carousel-next aria-label="Next instrument"></button>
           </div>
         </section>
 
@@ -440,49 +445,12 @@
           </div>
         </section>
 
-        <section class="section instruments">
-          <div class="section-heading">
-            <div class="eyebrow">Supported instruments</div>
-            <h2>Train with what you already play</h2>
-          </div>
-          <div class="instrument-grid">
-            <article class="instrument-card">
-              <img src="./assets/images/guitar.jpg" alt="Guitar" loading="lazy" />
-              <div>
-                <h3>Guitar</h3>
-                <p>Standard and half-step-down practice with string and fret-range control.</p>
-              </div>
-            </article>
-            <article class="instrument-card">
-              <img src="./assets/images/bass.jpg" alt="Bass guitar" loading="lazy" />
-              <div>
-                <h3>Bass</h3>
-                <p>Target note accuracy with ranges that fit your fretboard and technique.</p>
-              </div>
-            </article>
-            <article class="instrument-card">
-              <img src="./assets/images/piano.jpg" alt="Piano keyboard" loading="lazy" />
-              <div>
-                <h3>Piano</h3>
-                <p>Train within a chosen keyboard range and reinforce clean pitch recall.</p>
-              </div>
-            </article>
-            <article class="instrument-card">
-              <img src="./assets/images/microphone.jpg" alt="Vocal microphone" loading="lazy" />
-              <div>
-                <h3>Vocals</h3>
-                <p>Soprano, alto, tenor, and bass range options for direct voice training.</p>
-              </div>
-            </article>
-          </div>
-        </section>
-
         <section class="section screenshots" id="screenshots">
           <div class="section-heading">
             <div class="eyebrow">Screenshots</div>
             <h2>A clean practice flow from setup to results</h2>
           </div>
-          <div class="screenshot-grid">
+          <div class="screenshot-grid mobile-carousel" aria-label="PitchStill app screenshots">
             <figure class="shot-card">
               <div class="phone-frame">
                 <img src="./assets/images/screenshot-1.png" alt="PitchStill screenshot 1" loading="lazy" />
@@ -513,6 +481,11 @@
                 <img src="./assets/images/screenshot-6.png" alt="PitchStill screenshot 6" loading="lazy" />
               </div>
             </figure>
+          </div>
+          <div class="mobile-carousel-controls" data-carousel-controls aria-label="Screenshot carousel controls">
+            <button class="carousel-arrow carousel-arrow-prev" type="button" data-carousel-prev aria-label="Previous screenshot"></button>
+            <div class="mobile-carousel-dots" data-carousel-dots></div>
+            <button class="carousel-arrow carousel-arrow-next" type="button" data-carousel-next aria-label="Next screenshot"></button>
           </div>
         </section>
 
